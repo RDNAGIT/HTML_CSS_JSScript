@@ -1,0 +1,55 @@
+-----------------------
+Intro
+Different types of CSS
+Basic Selectors - Inline, external and inernal
+Baiscs - Units/ fonts/ colors/ boxModel/ padding/ margins
+Background properties and font face
+Position, float and display
+--------------------------
+
+
+
+Box model:
+Any delement in html is represented as Box
+    - Border: Border is the fence line around the Box   
+            border-width border-style border-color;
+        for every border we can assign border-radius[corner radius]
+            border-radius: size;
+        We can specify border or border radius to only specific side
+            border-left, border-rith, border-top, border-bottom,
+            border-top-left-radius etc 
+
+   Paddmg;
+
+    margin:
+    
+
+font and text properties
+for a good website along with colors, layout fonts alos play crucial role
+ANy fonts in e world belongs to 5 Families
+- serif - they will have strokes like TimesNewROman
+- sans-serif - They dont have strokes like Arial
+- monospace - Have same height for all elements like space mono
+- Cursive - They have stylish letters kind of chained together like cederville
+- Modern/ fantasy - Customised fonts and different fonts
+
+Properties:
+    font-family - typeface name, family name (eg: TimesNewROman, serif)
+    font-weight: size (100-1000/bold.bolder) used for thickness
+    font-style: italic/normal/oblique
+    fornt-color: 
+    text-align: center/left/right
+    text-decoration: widht stple(solid.dotter/dahsed/wavy) color position(underline/overline/line-through)
+    text-transform: uppercase/lowercase/capitalize
+    text-shadow: x y z color(eg: 5px 6 px 5 px green)
+    letter-spacing: size
+    line-height: size
+
+
+colors:
+    Represent emotions 
+    - colorname: 
+    - hexCode: every color will have hexa decimal value eg: #bchef[refer color picker in google]
+    - rgb 
+    -hsl -hue saturation lighnesss) hue takes degree of the color, 
+    saturation is % of darkness and lightness % of lightness

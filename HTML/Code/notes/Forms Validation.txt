@@ -1,0 +1,5 @@
+forms can be validated directly in HTML by using following attributes:
+- Required: its is to make the input or select as required to submit for form submission
+
+
+Regular Expressions:

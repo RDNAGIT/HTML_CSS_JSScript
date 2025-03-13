@@ -1,0 +1,40 @@
+forms are used to collect inputs into webpages from Users
+    SignIn
+    SignUp
+    FeedBack
+    Suggestion
+    Job Application
+    GetIn Touch/ COntact
+    Appraisal form
+
+The complete form uses 'form' tag it contains attributes like
+    action: contains the path to where inputs detaisl will be submitted
+
+Inputs will be collected using 'input' tag it is self closing tag. It contains the attributes like 
+    type: Used to define type of the input
+    Placeholder: dummy text placed in input untile user inputs a value. Used for hints
+    value: used to have a value for input for default
+    Name: used to send the values entered using the Name
+    id: Is used to identify the input uniquely 
+    eg: <input type="text" placeholder="enterName" value ="prasad" name="nam"
+
+
+    label is used to define the inputs and are connected to inputs by 'for' attributes
+    label's for and inputs ID should be same
+    eg: <lable for="nam" id="nam">Name</label>
+
+    We can wrap whole form with in fieldset for a border and we can use legend for a caption of of fieldset
+    <fieldset> 
+        <legend> signup </legend>
+    </fieldset>
+
+
+
+CheckBox:
+Checkbox is used to select multiple options
+
+
+Textarea: 
+
+
+

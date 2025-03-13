@@ -1,0 +1,22 @@
+Internet
+Basics of Internet
+Terminilogy
+    UI / UX [figma]
+
+HTML
+    -- Intro
+    -- Headings,p, a, img
+    -- formatting tags
+    -- lists
+    -- block vs inline
+    -- Semantics
+    -- Class and ID's
+    -- Tables
+
+Tables:
+    Tables are used to represent the data in Rows and columns
+    To represent table row - Use "tr" tag    
+    To represent table column - Use "th" or "td" tag    
+        th - Table Heading
+        td - Table data
+

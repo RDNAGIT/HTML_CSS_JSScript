@@ -1,0 +1,17 @@
+Formatting Tags are used to format the given text it applies styles such as bold, italics, underlines etc
+b - bold
+    <b>text</b>
+strong - Strong is used to make the text bold but strong is not understandable for search engine so better SEO[Search engine
+Optimization]
+    <s>text</s>
+hr - HOrizontal lines
+Self Closing Tags:
+hr, img, br
+code - this is used to write some program codes.
+    eg: <code > print("Hello World")</code>
+
+pre - Pre is used to define text in preformatted order
+    eg: <pre> Good 
+              Bad
+              Ugly
+        </pre>

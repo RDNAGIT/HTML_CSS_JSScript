@@ -1,0 +1,56 @@
+Internet
+Basics of Internet
+Terminilogy
+    UI / UX [figma]
+
+HTML
+    -- Intro
+    -- Headings,p, a, img
+    -- formatting tags
+    -- lists
+    -- block vs inline
+    -- Semantics
+    -- Class and ID's
+    -- Tables
+    -- MEDIA
+    -- FORMS
+    -- HTML5
+
+
+from Prasad Sir to everyone:    10:22 PM
+https://info.cern.ch/hypertext/WWW/TheProject.html
+
+from Prasad Sir to everyone:    10:23 PM
+https://github.com/prasad-bigdp/730HTMLCSSJS
+
+mdn.docs
+
+codepen.io 
+
+dev.to
+hashnode
+medium
+daily.dev
+colorhunt -- color selction
+cssgradient.io 
+patternscss
+
+100dayscss.com
+cssbattle.com
+frontendmentor
+
+
+blog preview card 
+
+
+
+https://cagey-able.surge.sh/
+https://abhi-hospital.netlify.app/
+
+
+HTML CSS Sample Projects
+https://akshaygir-portfolio.netlify.app/
+https://kailashkumar03.netlify.app
+https://tarunkportfolio.netlify.app/#skills
+https://vikrantsharma.netlify.app/
+https://portfolio9630.netlify.app

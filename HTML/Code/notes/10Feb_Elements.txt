@@ -1,0 +1,38 @@
+Tag Vs Element
+    Tag represents Either Opening / Closing tags
+    But Element is complete Entity with content 
+    Element = Open tag + Content + Close tag
+
+Elements are of 2 types:
+    - Inline Elements - 
+    - Block Elements
+
+Block Elements- Always starts in a Newline They wont allow anyother elements beside them
+    EG: ALL HEAdings, div, p
+
+Inline Elements: Will continue the control and they allow Other elements beside them.
+    eg: a, img, span
+
+**div and span are container elements and they are used to combine multiple elements 
+
+SEMENATIC Elements:
+    These are used to make the html code more structured and easy to understand for search engines
+    there are so many elemenets and each serve different purpose
+    Eg: header, nav,footer, aside, article, main, figure etc.. 
+
+    non semantic 
+     <div> text </div>
+
+    semantic:
+        <section> text </section>
+
+
+CLASS and ID's:
+    Class and Id's aer the attiributes given to at particular element to identify the element.
+    Classes are used to identify the multiple lements at at time 
+    ID is used to identify the element uniquely
+    One Element can have multiple calss names and multiple elememnents can have same class name.
+    ID's are always unique
+    
+**www.Freecodecamp.com
+**dev.to

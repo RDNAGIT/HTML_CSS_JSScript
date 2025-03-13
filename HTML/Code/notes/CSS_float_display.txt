@@ -1,0 +1,16 @@
+Float: Float in CSS is used to specify whther an element should be floated to the left or 
+to the right. 
+    float:left/right/none
+
+If element x is floating rightside of an element y incase y elements needs to clear its right side 
+you can use property clear
+    clear: left/right/ none/ both
+
+dispaly is used to present the elements in different ways such as 
+- block: Block elements contains height and weight and they comes one after the other 
+         
+- inline elements: Does NOT contain height and width it always comes sidebyside.
+
+- inline-block: these elements are inline but they can contain height and width
+
+- none: these elements will be removed from view.

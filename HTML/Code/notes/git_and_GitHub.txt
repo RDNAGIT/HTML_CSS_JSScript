@@ -1,0 +1,45 @@
+GIT and GITHUB:
+    GIT is distributed version control system[GIT is used to track various changes in your code base]
+    Its software we need to download and install
+
+GIT is developed and maintained by ORACLE.
+
+GITHUB is web based platform that provides a central location to git repositories. It makes other to collaborate into your projects
+
+GITHUB is developed and maintained by Microsoft
+eg: github, bitbucket etc.. 
+
+1.Repoitory
+
+2.commit: it is like saving the change, it create a snapshot of particulare changes made at that point
+
+3.branch Branch is seperate line in repository, allowing multiple versions of single code exist
+
+4.Merge: Merge means process of combining multiple branches 
+
+GIT Commands:
+    1. git init : it wil initiate the git
+    2. git-config: it will let the git know who you are
+        git config user.name.email "<youremaiidofGITHUB>"
+        git config user.name "<your username of github>"
+
+
+This need to be done only for firstTIME.
+
+3. git add .: it will stage all the changes
+4. git commit: saving your code
+5. git commit -m "message" it will save your code with some message
+
+6. git remote add origin : it is used to add a repository of github into your git
+
+7. git push -u origin branch: it is used to push the code into github
+
+Every chagne we need to repeat step 3, 5, and 7
+
+
+
+
+
+
+
+

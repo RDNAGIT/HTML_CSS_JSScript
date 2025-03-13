@@ -1,0 +1,29 @@
+Transition: are used to show the transformation of an element from one state to another state
+Eg: An element increases its height or an element which changes its position
+
+syntax: transition: transition-property transition-duration timing-function
+
+transition property: We can write properties which we need to observe transforming its state
+OR we can mention "all" 
+
+duration: we can mention time in seconds or milliseconds
+
+timing-function: We can mention timing functions like:
+    ease -- grows with gradual speed 
+    ease-in -- intially slow but later fast
+    ease-out -- initially fast but later slow
+    ease-in-out - slow fast slow
+    linear -- maintains constant speed
+
+we can use multiple properties for better transitions such as transform, filter,
+opacity etc.. 
+    transform-properties containts multiple elements like
+        scale -- Used for zooming and scale(1) is 100%
+        translate -- used for moving the element and translateX(200px) moves the 
+                    element to 200px on x-axis
+        rotate(deg) -- used for rotating an element 
+        skew() -- used for dragging element with corners
+
+    
+There are so many filters like grayscale, saturate, blur, opacity , hue_rotate etc...
+

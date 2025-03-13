@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: black;
+}
+
+body{
+
+    height: 10vh;
+    font-size: 20px;
+    background-position: right top;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-image: url('https://th.bing.com/th/id/OIP.YI4oNWFbGasxGMqlGe_U5AAAAA?rs=1&pid=ImgDetMain');
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100vw;
+}
+
+nav{
+    padding: 20px 30px;
+    background-color: black;
+    border-radius: 20px;
+    margin: 20px 20px;
+    box-shadow: 5px 5px 5px brown;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+li{
+    display: flex;
+    gap: 5px
+}
+
+li>a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+ }
+
+ li>img{
+    height: 30px;
+    background-color: white; 
+ }
+ /* Header Ends */
+ /*Banner Starts*/
+main{
+    max-width: 1280px;
+    margin: auto;
+}
+section{
+    padding: 50px 0px;
+}
+
+#banner{
+    
+}
+ .social-icons{
+    height: 30px;
+    }
+
+/*Banner Ends*/
+
+/*Media queries*/
+@media (max-width: 580px){
+    
+}

@@ -1,0 +1,40 @@
+we can use any element using tagname, classname and IDname
+but we also have other ways of selection as below:
+    -Child selector
+            We can select any immediate child of parent using arrow [>] eg: 
+            eg: div>p{color:red; }
+            p immediate inside of div have color red
+    -Descendent selector: 
+            we can select any element who is descendent of another element using space[' ']
+            eg: div p{ color:red}
+            p is the descendent of p
+    -Sibling selector: We can select any element which comes right after the other element
+    using +
+        h1+p{
+            color: red
+        }
+    p coming after next to h1
+
+pseudo selector: 
+    We can select elements based on its state or position using : OR :: 
+    pseudo classes: 
+        a.: hover: works when you keep your mouse cursor over element.
+        b.:link
+            :active: works when you click 
+            :visited - works when you already visisted the achor tag
+        c.:required-- selects all inuts which have required
+            -:Optional-- selects all inputs which are not required
+            -:readonly -- selects all inputs which are readonly
+            -:readwrite -- selects all inputs which are NOT readonly
+            -:disabled -- selects all inputs which are disabled
+            -:enabled -- selects all inputs which are enabled
+
+Pseudo elements:
+    These are special selectors which are mentioned followed by :: 
+    i. ::placeholder -- Used to select placeholder or a input
+    ii. ::before - used to select or give content before an element. For Assigning content,
+        we can use 'content' property with unicodes.
+    iii. ::after - used to select or give content after an element. 
+    iv. ::first-letter -- used to select an element text first letter
+    v. ::first-line -- Used to select an element's first line 
+    

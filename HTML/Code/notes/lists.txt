@@ -1,0 +1,17 @@
+lists are used to list out the certian items Eg: shopping list, Grocerieis, 
+ingredients, menu list, marks, list of books, index
+
+they are of 3 types:
+    - Ordered
+    - Unordered
+    - Definition
+
+Ordered list types - 1/a/a/i/I
+
+Unordered list tag - ul
+
+Definition lists
+this is used to define particular events, terms, or any steps
+tag: dl 
+'dt' - Used for definition text
+dd-Used for description  [definintion data]

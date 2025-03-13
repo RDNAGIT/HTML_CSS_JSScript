@@ -1,0 +1,44 @@
+Flex Box is used for a container to keep its children or child elements in single direction
+either row or columsn
+
+dispaly: Flex
+    arranges all  child items in single row
+
+flex-direction:
+    defines the direction in which items are arranged
+    row/column/row-reverse/column-reverse
+
+justify-content:
+    Moves the element along the flex direction 
+        left/flex-start/rigth/flex-end/center/space-bewteen/space-around/space-evenly
+    
+align-items:
+    moves the elements in opposite direction
+        start/flex-start/left/rigth/flex-end/center
+
+flex-wrap:
+    wrap the elements such that multiple lines will be formed
+        nowrap/wrap/wrap-reverse
+
+align-content:gap  between lines are adjusted using this
+left/flex-start/right/flex-end/center/space-between/space-around/space-evenly
+
+gap: provides gap between the items 
+
+child-properties:
+align-self: moves the only individual lement in opposite direction
+justify-self: moves the only individualelement in same direction
+order: defines the order in whch they arrange. default o for all 
+flex-grow: makes the indivudual element grow bigger
+flwex-shrink: makes the indivudual element grow smaller
+flex-basis: make the specific  width of element
+
+https://flexboxfroggy.com/
+Flexboxlabs
+
+
+
+        <div class="child child7">7</div>
+        <div class="child child8">8</div>
+        <div class="child child8">9</div>
+        <div class="child child8">10</div>

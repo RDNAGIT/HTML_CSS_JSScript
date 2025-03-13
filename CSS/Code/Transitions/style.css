@@ -1,0 +1,42 @@
+#box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    /*transition-property: background-color, height;*/
+    transition: background-color 2s, height: 5s;
+    transition-duration: 5s;
+}
+
+#box:hover{
+    height: 300px;
+    width: 200px;
+    background-color: greenyellow;
+}
+
+p{
+    font-size: 20px;
+    transition: all 2s;
+    
+}
+p:hover{
+    font-size: 48px;
+    color: aqua;
+    cursor: wait;
+}
+
+p:hover&::before{
+    content:"RAAJ"
+}
+
+#bxx>img{
+    height: 100px;
+    width: 250px;
+    background-color: antiquewhite;
+    transition: all 15s ease-in-out;
+    }
+
+#bxx>img:hover{
+    transform: scale(.5);
+    filter: hue-rotate(240deg); 
+    transform: translateX(500px) rotate(360deg);
+    transform: invert(50)

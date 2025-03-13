@@ -1,0 +1,94 @@
+Go to Animate.style
+
+Add to Class Name
+
+how to use libraary
+
+Every library i nothing but pre-written code . to import / connect that code to our html we need to add CDN link
+of that particular library
+Eg: Search CDN link of library name and get the CDN link and add to link tag as href in header 
+
+Every libraary uses lot of class names go to the documentation and use its class names in your code.
+
+httos://animate.css
+
+libraries List:
+https:animate.style
+https:
+
+
+Bootstrap is CSS component library used for responsive CSS. 
+Bootstrap provides several class names which can be added to html for respective design. Current version of bootstrap is 5.3.3
+official site: Getbootstrap.com
+
+we can get CDN links from website > docs > introduction
+
+To understand bootstrap we need to learn 3 things mainly
+    - colors and Utilities
+        By default bootstrap will provide 8 colors
+            primary: Blue color
+            secondary: grey
+            success- green
+             Info: skyblue
+             danger: red
+             warning: yellow
+             dark- coalblack
+             light- white
+
+We can class Names link btn-primary, btn-secondary etc..
+
+Utilities: Everything in CSS is possible except pseudo class, transitition, animations in bootstrap using
+classNames
+
+p - padding (pt, pb, px,py,ps,pe)
+margin - m (mt,mb,my,ms,me)
+border -- used for border 
+rounded--
+height  - h
+width - w
+ 
+ No Animatsions
+
+2.GRID Layouts
+Bootstrap provides a grid of row with 12 columns.
+.row use to assign an element as row and it has 12 columns
+.col - used to assign an element as cl and its width is distributed by row
+for eg:
+<div class="row">
+    <p class="col"> hi </p>
+    <p class="col"> hi </p>
+    <p class="col"> hi </p>
+</div>
+
+In above eg: each p will get 4 columns space.
+
+.col -colnumber -- used to assign an element as column and its width is distributed as per its number
+
+eg: 
+<div class="row">
+    <p class="col-6"> hi </p>
+    <p class="col-6"> hi </p>
+    <p class="col-6"> hi </p>
+</div>
+
+In above eg, row containts 2 columns width c clumns space each and third column will be in 2nd row as 6 columns space
+
+3. Responsive Ness
+Bootstrap is mainly used for responsiveness and it uses certain break points for the responsiveness
+Bootstrap follows mobile first design 
+
+Suffix Name                     width
+<No Name>                       < = 576 px(used for mobiles)
+sm                               >=577 - 768px(used for landscape)
+md                               > 768px - <=992px [used for Tablets] 
+lg                               > 92px - 1280px[small laptops, desktops]
+xl                              > 1280px - 1400px
+xxl                              > 1400px1280
+
+
+
+
+
+
+
+

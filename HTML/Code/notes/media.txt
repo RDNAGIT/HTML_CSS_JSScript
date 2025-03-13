@@ -1,0 +1,6 @@
+media files are used to represent visual presentation such as images videos Audios etc.. 
+we can include different media elements
+
+i- Audio: We can include Audio Files in websites using audio tag. The source of this audio file will be mentioned
+with 'source' tag
+

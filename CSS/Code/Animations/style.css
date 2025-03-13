@@ -1,0 +1,80 @@
+#box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    animation: changecolor 10s ease infinite normal, 
+    bouncing-ball 10s ease 5 alternate-reverse;
+}
+
+@keyframes bouncing-ball{
+    0%{
+    }
+    50%{
+        transform: translateY(500px);
+        border-radius: 50%;
+    }
+    100%{
+        transform: translateX(200px) translateY(-200px);
+        border-radius: 90%;
+    }
+}
+
+@keyframes changecolor{
+    10%{
+        background-color: green;
+    }
+    20%{
+        background-color: orange;
+    }
+    30%{
+        background-color: aqua;
+    }
+    50%{
+        background-color: yellow;
+    }
+    70%{
+        background-color: violet;
+    }
+    80%{
+        background-color: blue;
+    }
+    90%{
+        background-color: rgb(74, 5, 5);
+    }
+}
+
+#shin{
+    height: 200px;
+    width: 200px;
+    animation: movesides 5s ease alternate;
+}
+@keyframes movesides{
+    0%{
+        transform: translateX(0px);
+    }
+    25%{
+        transform: translateX(400px) translateY(0px) rotate(90deg);
+    }
+    50%{
+        transform: translateX(0px) translateY(400px) rotate(270deg);
+    }
+
+}
+
+#typing {
+    border-right: 5px solid red;
+    animation: letters 2s ease steps(6);
+    display: inline-block;
+}
+
+@keyframes letters {
+    0%{
+        width: 0%;
+        opacity: 0;
+    }
+    100%{
+        width: max-content;
+        opacity: 1;
+    }
+}
+

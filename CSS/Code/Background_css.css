@@ -1,0 +1,30 @@
+/*body {
+    background-color: #27445D;
+    background-image: linear-gradient(45deg, rgba(223, 183, 114, 0.706),rgba(80, 80, 185, 0.698),grey,violet);
+    background-image: radial-gradient(orange,green,blue );
+    background-image: url('../../HTML/Code/Photo4\ With\ My\ Spouse\ and\ 2\ Kids.jpg');
+    background-image: url('https://wallpapercave.com/wp/x2TWRLW.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center center;
+    background-attachment: fixed;
+    background-blend-mode:hard-light;
+    height: 100vh;
+}
+*/
+
+h1{
+    background-image: url('https://wallpapercave.com/wp/x2TWRLW.jpg');
+    color:black;
+    font-size: 250px;
+    letter-spacing: 30px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: top center;
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    
+
+}

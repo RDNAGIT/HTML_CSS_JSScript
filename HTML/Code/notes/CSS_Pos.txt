@@ -1,0 +1,15 @@
+Position in CSS: Is used to keep the element at diff palces of the window.
+This allows to control the postition of the element on a webpage.
+
+THere are 5 positions available in CSS
+    - static(default): The default positioning of a element is static. Elements are positioned 
+    according to normal document flow
+
+    - Relative: Elements are positioned relative to their normal positions. We can use
+    Top, left, right, bottom properties to move the elements.
+
+    - Absolute: Elements are positioned relative to their nearest ancestor(body)
+    
+    - Fixed: Absolute  but scrolling will not have any impact 
+
+    - sticky: Elements are positioned as thier nearest ancestor but will be fixed after it reaches certain Position

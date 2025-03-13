@@ -1,0 +1,26 @@
+.parent{
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 100px 100px;  
+    grid-template-rows: 200px 200px;  
+    gap: 20px; 
+}
+.child {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border: 1px solid rgb(157, 83, 83);
+    color: rgb(14, 13, 13);
+    font-size: large;
+}
+
+.child2 {
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    font-size: large;
+    border-radius: 50%;
+    border: 1px solid;
+}

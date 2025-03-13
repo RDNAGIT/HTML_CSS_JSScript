@@ -1,0 +1,33 @@
+.chota
+{
+    float: left;
+}
+
+.child{
+    font-size: 40px;
+    height: 100px;
+    height: 100px;
+    display: inline-block;
+    width: 100px;
+    background-color: red;
+    color:white;
+    margin: 20px
+}
+
+.child1
+{
+    float:left;
+    /*display: none;*/
+    visibility: hidden;
+}
+
+.child2
+{
+    float:left;
+}
+
+.child3
+{
+    float:left;
+}
+    
