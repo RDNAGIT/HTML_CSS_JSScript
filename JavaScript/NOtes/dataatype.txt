@@ -1,0 +1,13 @@
+JS is dynamically typed language that means there is no fixed data type for the variable. Data type of the variable
+changes from one data type to another data type.
+
+
+JS -- Case sensitive
+Browser's JS engine will automaticall yinsert semicolon at eveyy line end
+
+JS can even change data types implicit called Implicit type casting
+
+JS data types are divided as 2 catgories:
+    Primitive data types:   
+    Non-Primitive data types:
+

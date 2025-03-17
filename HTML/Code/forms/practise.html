@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Validation</title>
+</head>
+<body>
+    <form action="main.py" method="post">
+        <fieldset style="background-image: url('https://cdn.wallpapersafari.com/45/96/4sVxgH.jpg'); background-size:contain; padding: 10px; margin: 5px">
+        <legend style="color: rgb(228, 30, 30); font-size:x-large;"> <strong>Sign Up</strong> </legend>
+        <label for="nm" style="color: whitesmoke;"><strong>Enter your Name*: </strong></label>
+        <input type="text" id="nm" name:"Enter Name" required><br> <br>
+        <label for="pk" style="color: whitesmoke;"><strong>Enter your Password: </strong></label>
+        <input type="text" id="pk" name:"Enter Name"><br><br>
+
+        <label for="m" style="color: whitesmoke;" ><strong>Male </strong></label>
+        <input type="radio" id="m" name="fav" value="Male">
+        <label for="f" style="color: whitesmoke;" ><strong> FeMale </strong></label>
+        <input type="radio" id="f" name="fav" value="FeMale"><br><br>
+        
+        <label for="dt" style="color:white;"><strong> Enter DOB: </strong></label>
+        <input type="date" id="dt" name="dt" value="DOB">
+        <p> Skills Acquired: </p>
+        <input type="radio" id="ht" name="gr" value="HTML">
+        <label for="ht" style="color: whitesmoke;"><strong> HTML </strong></label>
+        
+        <input type="radio" id="cs" name="gr" value="CSS">
+        <label for="css" style="color: whitesmoke;"><strong> CSS </strong></label>
+
+        <input type="radio" id="js" name="gr" value="Javascript">
+        <label for="js" style="color: whitesmoke;"><strong> Javascript </strong></label><br><br>
+
+        <label for ="Lang" style="color: white;"><strong>Choose Language for Degree: </strong></label>
+        <select id="Lang" name="Language" size="1">
+        <optgroup label="Main_stream">
+            <option value="English">English</option>
+            <option value="Physics">Physics</option>
+            <option value="Chemistry">Chemistry</option>
+            <option value="Bilology">Bilology</option>
+        </optgroup>
+        <optgroup label="Engineer">
+            <option value="IT">Info Science</option>
+            <option value="ECE">Electricals</option>
+            <option value="EEE">Electronics</option>
+            <option value="IP">Industry Production</option>
+        </optgroup>
+        </select><br><br>
+        
+              
+        <label for="ph" style="color: beige;"><strong> Enter your Phone Number*</strong></label>
+        <input type="tel" id="ph" name="phone' pattern="[0-9]{3}-[0-9]{6}" placeholder="+1 416 46* ****"><br><br>
+
+        <label for="add" style="color: white;"> Contact PurPose: </label><br>
+        <textarea id="add" name="add" rows="5" cols="30"> </textarea><br><br>
+        
+        <button style="background-color: beige;">Submit</button>
+        <input type="reset" value="Reset">
+
+    </fieldset>
+    </form>
+</body>
+</html>

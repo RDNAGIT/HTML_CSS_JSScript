@@ -8,7 +8,7 @@
 <body>
     <form action="main.py" method="get">
         <fieldset> 
-            <legend> Sign up </legend>
+        <legend> Sign up </legend>
         <label for="na"> Name: </label>
         <input type="text" name="na" id="na" placeholder="Enter name"><br><br>
         <input type="radio" name="gender" value ="male" id="m" checked>
@@ -18,14 +18,19 @@
         <input type="radio" name="Selection" value="True" id="T">
         <label for="T"> True </label>
         <input type="radio" name="Selection" value="False" id="F">
-        <label for="F"> False </label><br><br>
+        <label for="F"> False </label><br>
+        <p> Skills: </p>
+        <input type="radio" id="html" name="selection" value="html">
+        <label for="html">HTML</label>
+        <input type="radio" id="css" name="selection" value="css">
+        <label for="css">CSS</label>
         <p> Languages Known: </p>
         <input type="checkbox" name="lang" value="English" id="en"
         <label for="en"> English</label>
         <input type="checkbox" name="lang" value="Hindi" id="Hi"
-        <label for="en"> Hindi </label>
+        <label for="Hi"> Hindi </label>
         <input type="checkbox" name="lang" value="Kannada" id="kn"
-        <label for="en"> Kannada</label><br><br>
+        <label for="kn"> Kannada</label><br><br>
         <p> Course Selection Known: </p>
         <input type="checkbox" name="lang" value="Computer Science" id="CS"
         <label for="CS"> Computer Science </label>
@@ -58,7 +63,7 @@
             <option value="BBA">BBA</option>
             <option value="BBM"> BBM</option>
         </optgroup>
-        <optgroup label="ENGG">
+        <optgroup label="Engineer">
             <option value="ECE">ECE</option>
             <option value="EEE"> EEE</option>
             <option value="CSC"> CSC</option>

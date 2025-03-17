@@ -1,0 +1,15 @@
+Javascript uses variables to store the values. You can declare a vairable in 3 ways:
+    i.e. var, let, constant
+
+
+    difference between Var, let and constant
+    Var is a function scope variables that can be redeclared, reassigned 
+
+
+
+    Basic DEFAULT functions provided by browser:
+    1.alert: Its used to show some alert to the user.
+        eg: alert("Login Successfully")
+    
+    2.confir(question): This is used to ask question to user for confirming his action
+        eg: confirm("are you sure to delete")
